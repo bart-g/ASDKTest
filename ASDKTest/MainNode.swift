@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainNode.swift
 //  ASDKTest
 //
 //  Created by Bartosz Górka on 03/06/16.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class ViewController: ASViewController {
+class MainNode: ASDisplayNode {
 
 }
