@@ -9,5 +9,6 @@
 #ifndef Test_Bridging_Header_h
 #define Test_Bridging_Header_h
 
+#import <AsyncDisplayKit/AsyncDisplayKit.h>
 
 #endif /* Test_Bridging_Header_h */

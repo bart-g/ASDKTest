@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03604650D7F0EFA9458B10A1 /* libPods-ASDKTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 332443F8FAAACBD150446B4A /* libPods-ASDKTest.a */; };
 		986F55C51D01A0EF0095B6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F55C41D01A0EF0095B6F4 /* AppDelegate.swift */; };
-		986F55C71D01A0EF0095B6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F55C61D01A0EF0095B6F4 /* ViewController.swift */; };
-		986F55CA1D01A0EF0095B6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986F55C81D01A0EF0095B6F4 /* Main.storyboard */; };
 		986F55CC1D01A0EF0095B6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986F55CB1D01A0EF0095B6F4 /* Assets.xcassets */; };
 		986F55CF1D01A0EF0095B6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986F55CD1D01A0EF0095B6F4 /* LaunchScreen.storyboard */; };
+		986F55D71D01AC8F0095B6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F55D61D01AC8F0095B6F4 /* ViewController.swift */; };
+		986F55DA1D01AE7C0095B6F4 /* MainNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986F55D91D01AE7C0095B6F4 /* MainNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3014279449A2824390B71CE5 /* Pods-ASDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDKTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDKTest/Pods-ASDKTest.debug.xcconfig"; sourceTree = "<group>"; };
+		332443F8FAAACBD150446B4A /* libPods-ASDKTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASDKTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		986F55C11D01A0EF0095B6F4 /* ASDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986F55C41D01A0EF0095B6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		986F55C61D01A0EF0095B6F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		986F55C91D01A0EF0095B6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		986F55CB1D01A0EF0095B6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		986F55CE1D01A0EF0095B6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		986F55D01D01A0EF0095B6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986F55D61D01AC8F0095B6F4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		986F55D81D01AD690095B6F4 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		986F55D91D01AE7C0095B6F4 /* MainNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNode.swift; sourceTree = "<group>"; };
+		DA86E3D05D223F17695A2661 /* Pods-ASDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDKTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDKTest/Pods-ASDKTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03604650D7F0EFA9458B10A1 /* libPods-ASDKTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 			children = (
 				986F55C31D01A0EF0095B6F4 /* ASDKTest */,
 				986F55C21D01A0EF0095B6F4 /* Products */,
+				C60300C74AED032824230AC1 /* Pods */,
+				A50D88C59D61D6047BD58AD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +63,31 @@
 			isa = PBXGroup;
 			children = (
 				986F55C41D01A0EF0095B6F4 /* AppDelegate.swift */,
-				986F55C61D01A0EF0095B6F4 /* ViewController.swift */,
-				986F55C81D01A0EF0095B6F4 /* Main.storyboard */,
 				986F55CB1D01A0EF0095B6F4 /* Assets.xcassets */,
 				986F55CD1D01A0EF0095B6F4 /* LaunchScreen.storyboard */,
 				986F55D01D01A0EF0095B6F4 /* Info.plist */,
+				986F55D61D01AC8F0095B6F4 /* ViewController.swift */,
+				986F55D91D01AE7C0095B6F4 /* MainNode.swift */,
+				986F55D81D01AD690095B6F4 /* Test-Bridging-Header.h */,
 			);
 			path = ASDKTest;
+			sourceTree = "<group>";
+		};
+		A50D88C59D61D6047BD58AD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				332443F8FAAACBD150446B4A /* libPods-ASDKTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60300C74AED032824230AC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3014279449A2824390B71CE5 /* Pods-ASDKTest.debug.xcconfig */,
+				DA86E3D05D223F17695A2661 /* Pods-ASDKTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 986F55D31D01A0EF0095B6F4 /* Build configuration list for PBXNativeTarget "ASDKTest" */;
 			buildPhases = (
+				28060491203EB593B76779E9 /* 📦 Check Pods Manifest.lock */,
 				986F55BD1D01A0EF0095B6F4 /* Sources */,
 				986F55BE1D01A0EF0095B6F4 /* Frameworks */,
 				986F55BF1D01A0EF0095B6F4 /* Resources */,
+				1B5AE37740B101DC28B627E2 /* 📦 Embed Pods Frameworks */,
+				E64993E84E34E28634DDDD05 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,18 +153,66 @@
 			files = (
 				986F55CF1D01A0EF0095B6F4 /* LaunchScreen.storyboard in Resources */,
 				986F55CC1D01A0EF0095B6F4 /* Assets.xcassets in Resources */,
-				986F55CA1D01A0EF0095B6F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5AE37740B101DC28B627E2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDKTest/Pods-ASDKTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28060491203EB593B76779E9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E64993E84E34E28634DDDD05 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDKTest/Pods-ASDKTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		986F55BD1D01A0EF0095B6F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986F55C71D01A0EF0095B6F4 /* ViewController.swift in Sources */,
+				986F55D71D01AC8F0095B6F4 /* ViewController.swift in Sources */,
+				986F55DA1D01AE7C0095B6F4 /* MainNode.swift in Sources */,
 				986F55C51D01A0EF0095B6F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +220,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		986F55C81D01A0EF0095B6F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				986F55C91D01A0EF0095B6F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		986F55CD1D01A0EF0095B6F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,6 +272,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Bartek/Documents/ASDKTest/ASDKTest/Test-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -241,12 +311,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Bartek/Documents/ASDKTest/ASDKTest/Test-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		986F55D41D01A0EF0095B6F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3014279449A2824390B71CE5 /* Pods-ASDKTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASDKTest/Info.plist;
@@ -258,6 +330,7 @@
 		};
 		986F55D51D01A0EF0095B6F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA86E3D05D223F17695A2661 /* Pods-ASDKTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASDKTest/Info.plist;
@@ -286,6 +359,7 @@
 				986F55D51D01A0EF0095B6F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
